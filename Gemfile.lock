@@ -109,6 +109,7 @@ GEM
       unf_ext
     unf_ext (0.0.7.1)
     webrobots (0.1.1)
+    xml-simple (1.1.5)
 
 PLATFORMS
   ruby
@@ -118,3 +119,4 @@ DEPENDENCIES
   dashing
   mechanize
   twitter (>= 5.9.0)
+  xml-simple

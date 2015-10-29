@@ -1,18 +1,18 @@
 ---
 valuation: |+
-  data: {"current":35,"last":68,"id":"valuation","updatedAt":1446077313}
+  data: {"current":73,"last":17,"id":"valuation","updatedAt":1446084204}
 
 karma: |+
   data: {"current":10509,"last":164276,"id":"karma","updatedAt":1446072324}
 
 synergy: |+
-  data: {"value":38,"id":"synergy","updatedAt":1446077313}
+  data: {"value":18,"id":"synergy","updatedAt":1446084204}
 
 convergence: |+
   data: {"points":[{"x":253,"y":28},{"x":254,"y":27},{"x":255,"y":47},{"x":256,"y":3},{"x":257,"y":4},{"x":258,"y":45},{"x":259,"y":35},{"x":260,"y":49},{"x":261,"y":3},{"x":262,"y":14}],"id":"convergence","updatedAt":1446070836}
 
 buzzwords: |+
-  data: {"items":[{"label":"Web 2.0","value":1},{"label":"Leverage","value":2},{"label":"Streamlininess","value":2},{"label":"Synergy","value":1},{"label":"Pivoting","value":1},{"label":"Exit strategy","value":2},{"label":"Paradigm shift","value":3},{"label":"Enterprise","value":1}],"id":"buzzwords","updatedAt":1446077313}
+  data: {"items":[{"label":"Enterprise","value":11},{"label":"Paradigm shift","value":7},{"label":"Turn-key","value":9},{"label":"Streamlininess","value":13},{"label":"Leverage","value":11},{"label":"Synergy","value":11},{"label":"Exit strategy","value":7},{"label":"Web 2.0","value":10},{"label":"Pivoting","value":4}],"id":"buzzwords","updatedAt":1446084204}
 
 hvv_jenfelder allee: |+
   data: {"items":[],"id":"hvv_jenfelder allee","updatedAt":1446069612}
@@ -21,7 +21,7 @@ hvv_jenfelder allee (mitte): |+
   data: {"items":[],"id":"hvv_jenfelder allee (mitte)","updatedAt":1446069613}
 
 hvv_jenfelderallee: |+
-  data: {"items":[{"label":"263 U Wandsbek Markt","value":"04:30"},{"label":"263 Willinghusen (Kehre)","value":"04:34"},{"label":"263 U Wandsbek Markt","value":"04:50"},{"label":"E62 U Wandsbek Markt","value":"05:07"},{"label":"263 U Wandsbek Markt","value":"05:10"},{"label":"263 Großlohe","value":"05:13"},{"label":"E62 U Wandsbek Markt","value":"05:27"},{"label":"263 U Wandsbek Markt","value":"05:30"},{"label":"E62 U Wandsbek Markt","value":"05:37"},{"label":"263 Willinghusen (Kehre)","value":"05:38"}],"id":"hvv_jenfelderallee","updatedAt":1446077289}
+  data: {"items":[{"label":"263 U Wandsbek Markt","value":"04:30"},{"label":"263 Willinghusen (Kehre)","value":"04:34"},{"label":"263 U Wandsbek Markt","value":"04:50"},{"label":"E62 U Wandsbek Markt","value":"05:07"},{"label":"263 U Wandsbek Markt","value":"05:10"},{"label":"263 Großlohe","value":"05:13"},{"label":"E62 U Wandsbek Markt","value":"05:27"},{"label":"263 U Wandsbek Markt","value":"05:30"},{"label":"E62 U Wandsbek Markt","value":"05:37"}],"id":"hvv_jenfelderallee","updatedAt":1446084160}
 
 hvv_jenfelderalleemitte: |+
   data: {"items":[],"id":"hvv_jenfelderalleemitte","updatedAt":1446070813}
@@ -42,8 +42,11 @@ hvv_abc: |+
   data: {"items":[{"label":"S31 Berliner Tor","value":"23:59 "},{"label":"S21 Aumühle","value":"00:01 "},{"label":"S21 Elbgaustraße","value":"00:01 "},{"label":"S31 Altona","value":"00:03 "},{"label":"S31 Berliner Tor","value":"00:19 "},{"label":"S21 Aumühle","value":"00:21 "},{"label":"S21 Elbgaustraße","value":"00:21 "},{"label":"S31 Altona","value":"00:23 "},{"label":"RE70 Hamburg Hbf","value":"00:27 "},{"label":"S31 Berliner Tor","value":"00:39 "},{"label":"S21 Aumühle","value":"00:41 "}],"id":"hvv_abc","updatedAt":1446072289}
 
 karmaa: |+
-  data: {"current":62690,"last":143729,"id":"karmaa","updatedAt":1446077313}
+  data: {"current":10489,"last":91057,"id":"karmaa","updatedAt":1446084204}
 
 hvv_schweidnitzerstr: |+
-  data: {"items":[{"label":"618 Sorenkoppel","value":"01:35"},{"label":"618 U Wandsbek Markt","value":"01:54"},{"label":"618 Sorenkoppel","value":"02:35"},{"label":"618 U Wandsbek Markt","value":"02:54"},{"label":"618 Sorenkoppel","value":"03:35"},{"label":"618 U Wandsbek Markt","value":"03:54"},{"label":"M27 U Billstedt","value":"04:05"},{"label":"M27 U Billstedt","value":"04:25"},{"label":"618 Sorenkoppel","value":"04:35"},{"label":"M27 S Wellingsbüttel","value":"04:36"}],"id":"hvv_schweidnitzerstr","updatedAt":1446077289}
+  data: {"items":[{"label":"618 Sorenkoppel","value":"03:35"},{"label":"618 U Wandsbek Markt","value":"03:54"},{"label":"M27 U Billstedt","value":"04:05"},{"label":"M27 U Billstedt","value":"04:25"},{"label":"618 Sorenkoppel","value":"04:35"},{"label":"M27 S Wellingsbüttel","value":"04:36"},{"label":"M27 U Billstedt","value":"04:45"},{"label":"M27 S Wellingsbüttel","value":"04:56"},{"label":"M27 U Billstedt","value":"05:05"}],"id":"hvv_schweidnitzerstr","updatedAt":1446084160}
+
+weather: |+
+  data: {"temp":"7&deg;C","condition":"Light Rain","title":"Ottawa Weather","climacon":"rain","id":"weather","updatedAt":1446084205}
 
