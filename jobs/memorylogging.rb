@@ -1,6 +1,6 @@
 
 
-SCHEDULER.every '1s', first_in: '1s' do
+SCHEDULER.every '5s', first_in: '1s' do
 	memory_stats = %x(free).split(" ")
 	result_in_percent = Integer(memory_stats[8])/Integer(memory_stats[7])
 	#send_event('abc', {min: 0})
