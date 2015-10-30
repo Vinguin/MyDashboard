@@ -1,14 +1,6 @@
 
 name = "Vinh"
 
-SCHEDULER.every '1m', first_in: '1s' do
-	time = Time.new
-	currenthour = time.hour
-	greetmsg = getGreet(currenthour)+ ", "+ name+"!"
-	send_event("welcome", {title: greetmsg})
-end
-
-
 # Diese Methode gibt zu einer Zeit eine passende Begrüßung.
 def getGreet(hour)
 	return case hour
@@ -28,3 +20,11 @@ def getGreet(hour)
 		"Eh... Hey"
 	end
 end
+SCHEDULER.every '1s', first_in: '1s' do
+	time = Time.new
+	currenthour = time.hour
+	greetmsg = getGreet(currenthour)+ ", "+ name+ "!"
+	send_event("welcome", {title: greetmsg})
+end
+
+

@@ -1,12 +1,12 @@
 ---
 valuation: |+
-  data: {"current":24,"last":64,"id":"valuation","updatedAt":1446127970}
+  data: {"current":93,"last":83,"id":"valuation","updatedAt":1446169070}
 
 karma: |+
   data: {"current":10509,"last":164276,"id":"karma","updatedAt":1446072324}
 
 synergy: |+
-  data: {"value":56,"id":"synergy","updatedAt":1446127970}
+  data: {"value":42,"id":"synergy","updatedAt":1446169070}
 
 convergence: |+
   data: {"points":[{"x":253,"y":28},{"x":254,"y":27},{"x":255,"y":47},{"x":256,"y":3},{"x":257,"y":4},{"x":258,"y":45},{"x":259,"y":35},{"x":260,"y":49},{"x":261,"y":3},{"x":262,"y":14}],"id":"convergence","updatedAt":1446070836}
@@ -21,7 +21,7 @@ hvv_jenfelder allee (mitte): |+
   data: {"items":[],"id":"hvv_jenfelder allee (mitte)","updatedAt":1446069613}
 
 hvv_jenfelderallee: |+
-  data: {"items":[{"label":"E62 Kielkoppelstraße","value":"15:24"},{"label":"263 U Wandsbek Markt","value":"15:29"},{"label":"263 Jenfeld-Zentrum","value":"15:31"},{"label":"E62 Sorenkoppel","value":"15:34"},{"label":"E62 U Wandsbek Markt","value":"15:36"},{"label":"263 U Wandsbek Markt","value":"15:39"},{"label":"263 Willinghusen (Kehre)","value":"15:41"},{"label":"E62 Kielkoppelstraße","value":"15:44"},{"label":"263 U Wandsbek Markt","value":"15:49"}],"id":"hvv_jenfelderallee","updatedAt":1446127959}
+  data: {"items":[{"label":"263 Willinghusen (Kehre)","value":"00:54"},{"label":"263 U Wandsbek Markt","value":"04:30"},{"label":"263 Willinghusen (Kehre)","value":"04:34"},{"label":"263 U Wandsbek Markt","value":"04:50"},{"label":"E62 U Wandsbek Markt","value":"05:07"}],"id":"hvv_jenfelderallee","updatedAt":1446161882}
 
 hvv_jenfelderalleemitte: |+
   data: {"items":[],"id":"hvv_jenfelderalleemitte","updatedAt":1446070813}
@@ -42,14 +42,26 @@ hvv_abc: |+
   data: {"items":[{"label":"S31 Berliner Tor","value":"23:59 "},{"label":"S21 Aumühle","value":"00:01 "},{"label":"S21 Elbgaustraße","value":"00:01 "},{"label":"S31 Altona","value":"00:03 "},{"label":"S31 Berliner Tor","value":"00:19 "},{"label":"S21 Aumühle","value":"00:21 "},{"label":"S21 Elbgaustraße","value":"00:21 "},{"label":"S31 Altona","value":"00:23 "},{"label":"RE70 Hamburg Hbf","value":"00:27 "},{"label":"S31 Berliner Tor","value":"00:39 "},{"label":"S21 Aumühle","value":"00:41 "}],"id":"hvv_abc","updatedAt":1446072289}
 
 karmaa: |+
-  data: {"current":139636,"last":11890,"id":"karmaa","updatedAt":1446127970}
+  data: {"current":145537,"last":90165,"id":"karmaa","updatedAt":1446169070}
 
 hvv_schweidnitzerstr: |+
-  data: {"items":[{"label":"35 Hamburg Messe (Eingang Ost)","value":"15:29"},{"label":"M27 U Billstedt","value":"15:35"},{"label":"M27 S Wellingsbüttel","value":"15:36"},{"label":"35 Sorenkoppel","value":"15:44"},{"label":"M27 U Billstedt","value":"15:45"},{"label":"M27 U Farmsen","value":"15:46"},{"label":"35 Hamburg Messe (Eingang Ost)","value":"15:49"},{"label":"M27 U Billstedt","value":"15:55"},{"label":"M27 S Wellingsbüttel","value":"15:56"}],"id":"hvv_schweidnitzerstr","updatedAt":1446127960}
+  data: {"items":[{"label":"618 U Wandsbek Markt","value":"00:54"},{"label":"M27 Jenfeld-Zentrum","value":"01:06"},{"label":"618 Sorenkoppel","value":"01:35"},{"label":"618 U Wandsbek Markt","value":"01:54"},{"label":"618 Sorenkoppel","value":"02:35"}],"id":"hvv_schweidnitzerstr","updatedAt":1446161882}
 
 weather: |+
-  data: {"temp":"13&deg;C","condition":"Mostly Cloudy","title":"Hamburg Weather","climacon":"cloud sun","id":"weather","updatedAt":1446127970}
+  data: {"temp":"10&deg;C","condition":"Fog","title":"Hamburg Weather","climacon":"fog","id":"weather","updatedAt":1446169070}
 
 welcome: |+
-  data: {"text":"Did you know that... 11% of people are left handed","id":"welcome","updatedAt":1446127959}
+  data: {"title":"It's still night, Vinh!","id":"welcome","updatedAt":1446169070}
+
+vinhi: |+
+  data: {"text":["Gesamt","Belegt","Frei","Gemeinsam","Puffer","Cache","Speicher:","7868348","3853596","4014752","408364","126404","2105916","-/+","Puffer/Cache:","1621276","6247072","Auslagerungsdatei:","8074748","0","8074748"],"id":"vinhi","updatedAt":1446164898}
+
+memory_stats: |+
+  data: {"max":100,"id":"memory_stats","updatedAt":1446165634}
+
+memory: |+
+  data: {"max":200,"id":"memory","updatedAt":1446166496}
+
+abc: |+
+  data: {"max":7868348,"id":"abc","updatedAt":1446169070}
 
