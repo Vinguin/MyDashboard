@@ -51,7 +51,7 @@ SCHEDULER.every '1m', first_in: '1s' do
       # dafür aber die Bilder-Url konsequent bennant.
       line = img["src"].match('lineKey=[A-Z_-]+:([\w]+)_')[1]
       # die zweite Spalte ist die Richtung
-      direction = rows.search('td')[1].content
+      direction = row.search('td')[1].content
       # in der dritten steht die Zeit, muss ein wenig bereinigt werden
       departure = row.search('td')[2].content.gsub(/\s/, "").sub("(", " (")
 

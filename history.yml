@@ -1,12 +1,12 @@
 ---
 valuation: |+
-  data: {"current":93,"last":83,"id":"valuation","updatedAt":1446169070}
+  data: {"current":73,"last":91,"id":"valuation","updatedAt":1446171193}
 
 karma: |+
   data: {"current":10509,"last":164276,"id":"karma","updatedAt":1446072324}
 
 synergy: |+
-  data: {"value":42,"id":"synergy","updatedAt":1446169070}
+  data: {"value":23,"id":"synergy","updatedAt":1446171193}
 
 convergence: |+
   data: {"points":[{"x":253,"y":28},{"x":254,"y":27},{"x":255,"y":47},{"x":256,"y":3},{"x":257,"y":4},{"x":258,"y":45},{"x":259,"y":35},{"x":260,"y":49},{"x":261,"y":3},{"x":262,"y":14}],"id":"convergence","updatedAt":1446070836}
@@ -21,7 +21,7 @@ hvv_jenfelder allee (mitte): |+
   data: {"items":[],"id":"hvv_jenfelder allee (mitte)","updatedAt":1446069613}
 
 hvv_jenfelderallee: |+
-  data: {"items":[{"label":"263 Willinghusen (Kehre)","value":"00:54"},{"label":"263 U Wandsbek Markt","value":"04:30"},{"label":"263 Willinghusen (Kehre)","value":"04:34"},{"label":"263 U Wandsbek Markt","value":"04:50"},{"label":"E62 U Wandsbek Markt","value":"05:07"}],"id":"hvv_jenfelderallee","updatedAt":1446161882}
+  data: {"items":[{"label":"263 U Wandsbek Markt","value":"04:30"},{"label":"263 Willinghusen (Kehre)","value":"04:34"},{"label":"263 U Wandsbek Markt","value":"04:50"},{"label":"E62 U Wandsbek Markt","value":"05:07"},{"label":"263 U Wandsbek Markt","value":"05:10"}],"id":"hvv_jenfelderallee","updatedAt":1446171135}
 
 hvv_jenfelderalleemitte: |+
   data: {"items":[],"id":"hvv_jenfelderalleemitte","updatedAt":1446070813}
@@ -42,16 +42,16 @@ hvv_abc: |+
   data: {"items":[{"label":"S31 Berliner Tor","value":"23:59 "},{"label":"S21 Aumühle","value":"00:01 "},{"label":"S21 Elbgaustraße","value":"00:01 "},{"label":"S31 Altona","value":"00:03 "},{"label":"S31 Berliner Tor","value":"00:19 "},{"label":"S21 Aumühle","value":"00:21 "},{"label":"S21 Elbgaustraße","value":"00:21 "},{"label":"S31 Altona","value":"00:23 "},{"label":"RE70 Hamburg Hbf","value":"00:27 "},{"label":"S31 Berliner Tor","value":"00:39 "},{"label":"S21 Aumühle","value":"00:41 "}],"id":"hvv_abc","updatedAt":1446072289}
 
 karmaa: |+
-  data: {"current":145537,"last":90165,"id":"karmaa","updatedAt":1446169070}
+  data: {"current":58467,"last":25722,"id":"karmaa","updatedAt":1446171193}
 
 hvv_schweidnitzerstr: |+
-  data: {"items":[{"label":"618 U Wandsbek Markt","value":"00:54"},{"label":"M27 Jenfeld-Zentrum","value":"01:06"},{"label":"618 Sorenkoppel","value":"01:35"},{"label":"618 U Wandsbek Markt","value":"01:54"},{"label":"618 Sorenkoppel","value":"02:35"}],"id":"hvv_schweidnitzerstr","updatedAt":1446161882}
+  data: {"items":[{"label":"618 Sorenkoppel","value":"03:35"},{"label":"618 U Wandsbek Markt","value":"03:54"},{"label":"M27 U Billstedt","value":"04:05"},{"label":"M27 U Billstedt","value":"04:25"},{"label":"618 Sorenkoppel","value":"04:35"}],"id":"hvv_schweidnitzerstr","updatedAt":1446171135}
 
 weather: |+
-  data: {"temp":"10&deg;C","condition":"Fog","title":"Hamburg Weather","climacon":"fog","id":"weather","updatedAt":1446169070}
+  data: {"temp":"11&deg;C","condition":"Fog","title":"Hamburg Weather","climacon":"fog","id":"weather","updatedAt":1446171194}
 
 welcome: |+
-  data: {"title":"It's still night, Vinh!","id":"welcome","updatedAt":1446169070}
+  data: {"title":"It's still night, Vinh!","id":"welcome","updatedAt":1446171193}
 
 vinhi: |+
   data: {"text":["Gesamt","Belegt","Frei","Gemeinsam","Puffer","Cache","Speicher:","7868348","3853596","4014752","408364","126404","2105916","-/+","Puffer/Cache:","1621276","6247072","Auslagerungsdatei:","8074748","0","8074748"],"id":"vinhi","updatedAt":1446164898}
@@ -63,5 +63,5 @@ memory: |+
   data: {"max":200,"id":"memory","updatedAt":1446166496}
 
 abc: |+
-  data: {"max":7868348,"id":"abc","updatedAt":1446169070}
+  data: {"max":7868348,"id":"abc","updatedAt":1446171193}
 
