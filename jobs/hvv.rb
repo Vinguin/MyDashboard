@@ -8,7 +8,7 @@ station_list = [
     "distance" => 10 * 60
   },
   {
-    "station" => "Hamburg, Schweidnitzer Strasse",
+    "station" => "Hamburg, Hammerbrook",
     "name" => "SchweidnitzerStr",
     "distance" => 15 * 60
   }
