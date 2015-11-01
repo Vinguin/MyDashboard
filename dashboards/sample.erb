@@ -1,11 +1,15 @@
 <script type='text/javascript'>
 // These settings override the defaults set in application.coffee. You can do this on a per dashboard basis.
 $(function() {
-    Dashing.widget_base_dimensions = [370, 340]
+  Dashing.widget_base_dimensions = [370, 340]
   Dashing.numColumns = 5
-});
 
+  Dashing.gridsterLayout('[{"col":1,"row":1,"size_x":1,"size_y":1},{"col":2,"row":1,"size_x":1,"size_y":1},{"col":3,"row":1,"size_x":1,"size_y":1},{"col":2,"row":2,"size_x":1,"size_y":1},{"col":3,"row":2,"size_x":1,"size_y":1},{"col":1,"row":2,"size_x":1,"size_y":1},{"col":4,"row":1,"size_x":1,"size_y":1}]')
+});
  </script>
+
+
+
 
 <% content_for :title do %>My awesome incredible dashboard<% end %>
 <div class="gridster">
