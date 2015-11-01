@@ -1,12 +1,12 @@
 ---
 valuation: |+
-  data: {"current":87,"last":71,"id":"valuation","updatedAt":1446269887}
+  data: {"current":69,"last":51,"id":"valuation","updatedAt":1446394294}
 
 karma: |+
   data: {"current":10509,"last":164276,"id":"karma","updatedAt":1446072324}
 
 synergy: |+
-  data: {"value":57,"id":"synergy","updatedAt":1446269887}
+  data: {"value":13,"id":"synergy","updatedAt":1446394294}
 
 convergence: |+
   data: {"points":[{"x":253,"y":28},{"x":254,"y":27},{"x":255,"y":47},{"x":256,"y":3},{"x":257,"y":4},{"x":258,"y":45},{"x":259,"y":35},{"x":260,"y":49},{"x":261,"y":3},{"x":262,"y":14}],"id":"convergence","updatedAt":1446070836}
@@ -21,7 +21,7 @@ hvv_jenfelder allee (mitte): |+
   data: {"items":[],"id":"hvv_jenfelder allee (mitte)","updatedAt":1446069613}
 
 hvv_jenfelderallee: |+
-  data: {"items":[{"label":"263 Willinghusen (Kehre)","value":"07:03"},{"label":"263 U Wandsbek Markt","value":"07:08"},{"label":"263 Willinghusen (Kehre)","value":"07:23"},{"label":"263 U Wandsbek Markt","value":"07:28"},{"label":"263 Willinghusen (Kehre)","value":"07:43"}],"id":"hvv_jenfelderallee","updatedAt":1446269869}
+  data: {"items":[{"label":"U1 Ohlstedt","value":"17:19 "},{"label":"U1 Lattenkamp (Sporthalle)","value":"17:22 "},{"label":"U1 Großhansdorf","value":"17:29 "},{"label":"U1 Lattenkamp (Sporthalle)","value":"17:32 "},{"label":"U1 Ohlstedt","value":"17:39 "}],"id":"hvv_jenfelderallee","updatedAt":1446394078}
 
 hvv_jenfelderalleemitte: |+
   data: {"items":[],"id":"hvv_jenfelderalleemitte","updatedAt":1446070813}
@@ -42,16 +42,16 @@ hvv_abc: |+
   data: {"items":[{"label":"S31 Berliner Tor","value":"23:59 "},{"label":"S21 Aumühle","value":"00:01 "},{"label":"S21 Elbgaustraße","value":"00:01 "},{"label":"S31 Altona","value":"00:03 "},{"label":"S31 Berliner Tor","value":"00:19 "},{"label":"S21 Aumühle","value":"00:21 "},{"label":"S21 Elbgaustraße","value":"00:21 "},{"label":"S31 Altona","value":"00:23 "},{"label":"RE70 Hamburg Hbf","value":"00:27 "},{"label":"S31 Berliner Tor","value":"00:39 "},{"label":"S21 Aumühle","value":"00:41 "}],"id":"hvv_abc","updatedAt":1446072289}
 
 karmaa: |+
-  data: {"current":65431,"last":119688,"id":"karmaa","updatedAt":1446269887}
+  data: {"current":166221,"last":136849,"id":"karmaa","updatedAt":1446394294}
 
 hvv_schweidnitzerstr: |+
-  data: {"items":[{"label":"S3 Pinneberg","value":"06:52 "},{"label":"S3 Pinneberg","value":"07:02 "},{"label":"S3 Neugraben","value":"07:11 "},{"label":"S3 Pinneberg","value":"07:12 "},{"label":"S3 Neugraben","value":"07:21 "}],"id":"hvv_schweidnitzerstr","updatedAt":1446269869}
+  data: {"items":[{"label":"S3 Altona","value":"17:22 "},{"label":"S3 Stade","value":"17:31 "},{"label":"S3 Pinneberg","value":"17:32 "},{"label":"S3 Altona","value":"17:42 "},{"label":"S3 Neugraben","value":"17:51 "}],"id":"hvv_schweidnitzerstr","updatedAt":1446394078}
 
 weather: |+
-  data: {"temp":"8&deg;C","condition":"Mostly Cloudy","title":"Hamburg Weather","climacon":"cloud moon","id":"weather","updatedAt":1446269888}
+  data: {"temp":"12&deg;C","condition":"Mist","title":"Hamburg Weather","climacon":"fog","id":"weather","updatedAt":1446394294}
 
 welcome: |+
-  data: {"title":"It's still night, Vinh!","id":"welcome","updatedAt":1446269887}
+  data: {"title":"Good afternoon, Vinh!","id":"welcome","updatedAt":1446394294}
 
 vinhi: |+
   data: {"text":["Gesamt","Belegt","Frei","Gemeinsam","Puffer","Cache","Speicher:","7868348","3853596","4014752","408364","126404","2105916","-/+","Puffer/Cache:","1621276","6247072","Auslagerungsdatei:","8074748","0","8074748"],"id":"vinhi","updatedAt":1446164898}
@@ -63,5 +63,11 @@ memory: |+
   data: {"max":200,"id":"memory","updatedAt":1446166496}
 
 abc: |+
-  data: {"max":7868112,"id":"abc","updatedAt":1446269883}
+  data: {"max":7868112,"id":"abc","updatedAt":1446394294}
+
+hvv_lohmuehlenstr: |+
+  data: {"items":[{"label":"U1 Lattenkamp (Sporthalle)","value":"17:22 "},{"label":"U1 Großhansdorf","value":"17:29 "},{"label":"U1 Lattenkamp (Sporthalle)","value":"17:32 "},{"label":"U1 Ohlstedt","value":"17:39 "},{"label":"U1 Lattenkamp (Sporthalle)","value":"17:42 "}],"id":"hvv_lohmuehlenstr","updatedAt":1446394259}
+
+hvv_hammerbrook: |+
+  data: {"items":[{"label":"S3 Stade","value":"17:31 "},{"label":"S3 Pinneberg","value":"17:32 "},{"label":"S3 Altona","value":"17:42 "},{"label":"S3 Neugraben","value":"17:51 "},{"label":"S3 Pinneberg","value":"17:52 "}],"id":"hvv_hammerbrook","updatedAt":1446394260}
 

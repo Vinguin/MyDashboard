@@ -3,13 +3,20 @@ require 'mechanize'
 
 station_list = [
   {
-    "station" => "Hamburg, Jenfelder Allee",
-    "name" => "JenfelderAllee",
+    "station" => "Hamburg, Lohmuehlenstrasse",
+    "name" => "lohmuehlenstr",
     "distance" => 10 * 60
   },
+
+  {
+    "station" => "Hamburg, Berliner Tor",
+    "name" => "berlinertor",
+    "distance" => 15 * 60
+  },
+  
   {
     "station" => "Hamburg, Hammerbrook",
-    "name" => "SchweidnitzerStr",
+    "name" => "hammerbrook",
     "distance" => 15 * 60
   }
 ]
@@ -60,12 +67,12 @@ SCHEDULER.every '1m', first_in: '1s' do
       # ap departure
 
       # die IC/Es interessieren uns nicht
-      #if line[0] == "S" or line[0] == "R" or line[0] == "U" or line[0] == "A"
+      if not line[0] == "3"
         connections << {
           label: "#{line} #{direction}",
           value: departure.sub(/\(\+0\)/, '')
         }
-      #end
+      end
 
     end
 
