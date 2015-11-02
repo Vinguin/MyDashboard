@@ -20,7 +20,8 @@ def getGreet(hour)
 		"Eh... Hey"
 	end
 end
-SCHEDULER.every '1s', first_in: '1s' do
+
+SCHEDULER.every '30s', first_in: '1s' do
 	time = Time.new
 	currenthour = time.hour
 	greetmsg = getGreet(currenthour)+ ", "+ name+ "!"

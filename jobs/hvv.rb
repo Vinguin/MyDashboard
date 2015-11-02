@@ -53,12 +53,16 @@ SCHEDULER.every '1m', first_in: '1s' do
     # die Abfahrten stehen in der Tabelle .departures-listing, die erste Zeile kann weg
     # da stehen nur die Überschriften
     page.search('.departures-listing tr').drop(1).each do |row|
+
       # die Füchse haben die Linie nur als Bild hinterlegt
       img = row.at_css('img')
+
       # dafür aber die Bilder-Url konsequent bennant.
       line = img["src"].match('lineKey=[A-Z_-]+:([\w]+)_')[1]
+
       # die zweite Spalte ist die Richtung
       direction = row.search('td')[1].content
+
       # in der dritten steht die Zeit, muss ein wenig bereinigt werden
       departure = row.search('td')[2].content.gsub(/\s/, "").sub("(", " (")
 
@@ -67,7 +71,7 @@ SCHEDULER.every '1m', first_in: '1s' do
       # ap departure
 
       # die IC/Es interessieren uns nicht
-      if not line[0] == "3"
+      if line.start_with? "U" or line.start_with? "S3" or not line.start_with? "U3"
         connections << {
           label: "#{line} #{direction}",
           value: departure.sub(/\(\+0\)/, '')
@@ -80,3 +84,4 @@ SCHEDULER.every '1m', first_in: '1s' do
     send_event('hvv_' + station["name"].downcase, { items: connections[0..4]})
   end
 end
+
