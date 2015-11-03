@@ -3,12 +3,6 @@ require 'mechanize'
 
 station_list = [
   {
-    "station" => "Hamburg, Lohmuehlenstrasse",
-    "name" => "lohmuehlenstr",
-    "distance" => 10 * 60
-  },
-
-  {
     "station" => "Hamburg, Berliner Tor",
     "name" => "berlinertor",
     "distance" => 15 * 60

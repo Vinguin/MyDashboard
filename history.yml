@@ -1,12 +1,12 @@
 ---
 valuation: |+
-  data: {"current":83,"last":6,"id":"valuation","updatedAt":1446562060}
+  data: {"current":12,"last":84,"id":"valuation","updatedAt":1446591856}
 
 karma: |+
   data: {"current":10509,"last":164276,"id":"karma","updatedAt":1446072324}
 
 synergy: |+
-  data: {"value":40,"id":"synergy","updatedAt":1446562060}
+  data: {"value":73,"id":"synergy","updatedAt":1446591856}
 
 convergence: |+
   data: {"points":[{"x":253,"y":28},{"x":254,"y":27},{"x":255,"y":47},{"x":256,"y":3},{"x":257,"y":4},{"x":258,"y":45},{"x":259,"y":35},{"x":260,"y":49},{"x":261,"y":3},{"x":262,"y":14}],"id":"convergence","updatedAt":1446070836}
@@ -42,16 +42,16 @@ hvv_abc: |+
   data: {"items":[{"label":"S31 Berliner Tor","value":"23:59 "},{"label":"S21 Aumühle","value":"00:01 "},{"label":"S21 Elbgaustraße","value":"00:01 "},{"label":"S31 Altona","value":"00:03 "},{"label":"S31 Berliner Tor","value":"00:19 "},{"label":"S21 Aumühle","value":"00:21 "},{"label":"S21 Elbgaustraße","value":"00:21 "},{"label":"S31 Altona","value":"00:23 "},{"label":"RE70 Hamburg Hbf","value":"00:27 "},{"label":"S31 Berliner Tor","value":"00:39 "},{"label":"S21 Aumühle","value":"00:41 "}],"id":"hvv_abc","updatedAt":1446072289}
 
 karmaa: |+
-  data: {"current":25247,"last":129685,"id":"karmaa","updatedAt":1446562060}
+  data: {"current":24769,"last":47620,"id":"karmaa","updatedAt":1446591856}
 
 hvv_schweidnitzerstr: |+
   data: {"items":[{"label":"S3 Altona","value":"17:22 "},{"label":"S3 Stade","value":"17:31 "},{"label":"S3 Pinneberg","value":"17:32 "},{"label":"S3 Altona","value":"17:42 "},{"label":"S3 Neugraben","value":"17:51 "}],"id":"hvv_schweidnitzerstr","updatedAt":1446394078}
 
 weather: |+
-  data: {"temp":"5&deg;C","condition":"Partly Cloudy","title":"Hamburg Weather","climacon":"cloud sun","id":"weather","updatedAt":1446562061}
+  data: {"temp":"3&deg;C","condition":"Fog","title":"Hamburg Weather","climacon":"fog","id":"weather","updatedAt":1446591856}
 
 welcome: |+
-  data: {"moreinfo":"1020 facts to learn!","id":"welcome","updatedAt":1446562032}
+  data: {"moreinfo":"1020 facts to learn!","id":"welcome","updatedAt":1446591834}
 
 vinhi: |+
   data: {"text":["Gesamt","Belegt","Frei","Gemeinsam","Puffer","Cache","Speicher:","7868348","3853596","4014752","408364","126404","2105916","-/+","Puffer/Cache:","1621276","6247072","Auslagerungsdatei:","8074748","0","8074748"],"id":"vinhi","updatedAt":1446164898}
@@ -63,14 +63,14 @@ memory: |+
   data: {"max":200,"id":"memory","updatedAt":1446166496}
 
 abc: |+
-  data: {"value":"31.10","max":100,"id":"abc","updatedAt":1446562058}
+  data: {"value":"67.39","max":100,"id":"abc","updatedAt":1446591855}
 
 hvv_lohmuehlenstr: |+
-  data: {"items":[{"label":"U1 Norderstedt Mitte","value":"15:57 "},{"label":"35 Sorenkoppel","value":"15:59"},{"label":"U1 Großhansdorf","value":"15:59 "},{"label":"U1 Norderstedt Mitte","value":"16:02 "},{"label":"36 Berner Heerweg","value":"16:04"}],"id":"hvv_lohmuehlenstr","updatedAt":1446562023}
+  data: {"items":[{"label":"U1 Norderstedt Mitte","value":"00:12 (+2)"},{"label":"U1 Großhansdorf","value":"00:29 "},{"label":"U1 Norderstedt Mitte","value":"00:32 (+1)"},{"label":"36 Berner Heerweg","value":"00:38"},{"label":"608 S Reeperbahn","value":"00:53"}],"id":"hvv_lohmuehlenstr","updatedAt":1446591825}
 
 hvv_hammerbrook: |+
-  data: {"items":[{"label":"S3 Pinneberg","value":"16:02 "},{"label":"S31 Neugraben","value":"16:05 "},{"label":"S31 Altona","value":"16:07 "},{"label":"S3 Stade","value":"16:11 "},{"label":"S3 Pinneberg","value":"16:12 "}],"id":"hvv_hammerbrook","updatedAt":1446562024}
+  data: {"items":[{"label":"S3 Stade","value":"00:31 "},{"label":"S3 Pinneberg","value":"00:32 (+5)"},{"label":"S3 Neugraben","value":"00:51 "},{"label":"S3 Neugraben","value":"01:01 "},{"label":"S3 Elbgaustraße","value":"02:32"}],"id":"hvv_hammerbrook","updatedAt":1446591826}
 
 hvv_berlinertor: |+
-  data: {"items":[{"label":"U2 Mümmelmannsberg","value":"16:02 "},{"label":"U3 Wandsbek-Gartenstadt","value":"16:02 (+1)"},{"label":"154 Bf. Harburg","value":"16:03"},{"label":"S2 Bergedorf","value":"16:03 "},{"label":"U4 Billstedt","value":"16:04 "}],"id":"hvv_berlinertor","updatedAt":1446562024}
+  data: {"items":[{"label":"U3 Schlump - Barmbek","value":"00:26 "},{"label":"U4 HafenCity Universität","value":"00:26 "},{"label":"U2 Mümmelmannsberg","value":"00:27 "},{"label":"U3 Wandsbek-Gartenstadt","value":"00:27 "},{"label":"S1 Poppenbüttel / Hamburg Airport (Flughafen)","value":"00:27 (+3)"}],"id":"hvv_berlinertor","updatedAt":1446591826}
 
