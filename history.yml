@@ -1,76 +1,70 @@
 ---
-valuation: |+
-  data: {"current":98,"last":10,"id":"valuation","updatedAt":1446592837}
-
-karma: |+
-  data: {"current":10509,"last":164276,"id":"karma","updatedAt":1446072324}
-
-synergy: |+
-  data: {"value":99,"id":"synergy","updatedAt":1446592837}
-
-convergence: |+
-  data: {"points":[{"x":253,"y":28},{"x":254,"y":27},{"x":255,"y":47},{"x":256,"y":3},{"x":257,"y":4},{"x":258,"y":45},{"x":259,"y":35},{"x":260,"y":49},{"x":261,"y":3},{"x":262,"y":14}],"id":"convergence","updatedAt":1446070836}
-
-buzzwords: |+
-  data: {"items":[{"label":"Leverage","value":14},{"label":"Pivoting","value":24},{"label":"Turn-key","value":18},{"label":"Enterprise","value":9},{"label":"Synergy","value":20},{"label":"Web 2.0","value":27},{"label":"Paradigm shift","value":25},{"label":"Exit strategy","value":17},{"label":"Streamlininess","value":24}],"id":"buzzwords","updatedAt":1446123233}
-
-hvv_jenfelder allee: |+
-  data: {"items":[],"id":"hvv_jenfelder allee","updatedAt":1446069612}
-
-hvv_jenfelder allee (mitte): |+
-  data: {"items":[],"id":"hvv_jenfelder allee (mitte)","updatedAt":1446069613}
-
-hvv_jenfelderallee: |+
-  data: {"items":[{"label":"U1 Ohlstedt","value":"17:19 "},{"label":"U1 Lattenkamp (Sporthalle)","value":"17:22 "},{"label":"U1 Großhansdorf","value":"17:29 "},{"label":"U1 Lattenkamp (Sporthalle)","value":"17:32 "},{"label":"U1 Ohlstedt","value":"17:39 "}],"id":"hvv_jenfelderallee","updatedAt":1446394078}
-
-hvv_jenfelderalleemitte: |+
-  data: {"items":[],"id":"hvv_jenfelderalleemitte","updatedAt":1446070813}
-
-hvv_dammtor: |+
-  data: {"items":[{"label":"608 S Reeperbahn","value":"01:13"},{"label":"608 Großlohe","value":"01:17"},{"label":"600 Böcklerstraße","value":"01:21"},{"label":"618 Sorenkoppel","value":"01:23"},{"label":"600 Bf. Altona","value":"01:38"},{"label":"608 S Reeperbahn","value":"01:43"},{"label":"608 Bf. Rahlstedt","value":"01:47"},{"label":"600 Böcklerstraße","value":"01:51"},{"label":"600 Bf. Altona","value":"02:08"},{"label":"608 S Reeperbahn","value":"02:13"},{"label":"608 Großlohe","value":"02:17"}],"id":"hvv_dammtor","updatedAt":1446076776}
-
-hvv_hallerstr: |+
-  data: {"items":[{"label":"605 Rathausmarkt","value":"01:41"},{"label":"605 Warnckesweg","value":"02:09"},{"label":"605 Rathausmarkt","value":"02:41"},{"label":"605 Warnckesweg","value":"03:09"},{"label":"605 Rathausmarkt","value":"03:41"},{"label":"605 Warnckesweg","value":"04:09"},{"label":"M15 Alsterchaussee","value":"04:16"},{"label":"M15 S Klein Flottbek","value":"04:21"},{"label":"U1 Ohlstedt","value":"04:29"},{"label":"U1 Großhansdorf","value":"04:39"},{"label":"M15 Alsterchaussee","value":"04:46"}],"id":"hvv_hallerstr","updatedAt":1446076952}
-
-hvv_dammtora: |+
-  data: {"items":[{"label":"S21 Aumühle","value":"23:41 "},{"label":"S21 Elbgaustraße","value":"23:41 "},{"label":"S31 Altona","value":"23:43 "},{"label":"S31 Berliner Tor","value":"23:59 "},{"label":"S21 Aumühle","value":"00:01 "},{"label":"S21 Elbgaustraße","value":"00:01 "},{"label":"S31 Altona","value":"00:03 "},{"label":"S31 Berliner Tor","value":"00:19 "},{"label":"S21 Aumühle","value":"00:21 "},{"label":"S21 Elbgaustraße","value":"00:21 "},{"label":"S31 Altona","value":"00:23 "}],"id":"hvv_dammtora","updatedAt":1446071313}
-
-hvv_adammtor: |+
-  data: {"items":[{"label":"S31 Altona","value":"23:43 "},{"label":"S31 Berliner Tor","value":"23:59 "},{"label":"S21 Aumühle","value":"00:01 "},{"label":"S21 Elbgaustraße","value":"00:01 "},{"label":"S31 Altona","value":"00:03 "},{"label":"S31 Berliner Tor","value":"00:19 "},{"label":"S21 Aumühle","value":"00:21 "},{"label":"S21 Elbgaustraße","value":"00:21 "},{"label":"S31 Altona","value":"00:23 "},{"label":"RE70 Hamburg Hbf","value":"00:27 "}],"id":"hvv_adammtor","updatedAt":1446071352}
-
-hvv_abc: |+
-  data: {"items":[{"label":"S31 Berliner Tor","value":"23:59 "},{"label":"S21 Aumühle","value":"00:01 "},{"label":"S21 Elbgaustraße","value":"00:01 "},{"label":"S31 Altona","value":"00:03 "},{"label":"S31 Berliner Tor","value":"00:19 "},{"label":"S21 Aumühle","value":"00:21 "},{"label":"S21 Elbgaustraße","value":"00:21 "},{"label":"S31 Altona","value":"00:23 "},{"label":"RE70 Hamburg Hbf","value":"00:27 "},{"label":"S31 Berliner Tor","value":"00:39 "},{"label":"S21 Aumühle","value":"00:41 "}],"id":"hvv_abc","updatedAt":1446072289}
-
-karmaa: |+
-  data: {"current":141592,"last":12237,"id":"karmaa","updatedAt":1446592837}
-
-hvv_schweidnitzerstr: |+
-  data: {"items":[{"label":"S3 Altona","value":"17:22 "},{"label":"S3 Stade","value":"17:31 "},{"label":"S3 Pinneberg","value":"17:32 "},{"label":"S3 Altona","value":"17:42 "},{"label":"S3 Neugraben","value":"17:51 "}],"id":"hvv_schweidnitzerstr","updatedAt":1446394078}
-
-weather: |+
-  data: {"temp":"3&deg;C","condition":"Fog","title":"Hamburg Weather","climacon":"fog","id":"weather","updatedAt":1446592837}
-
-welcome: |+
-  data: {"moreinfo":"1020 facts to learn!","id":"welcome","updatedAt":1446592829}
-
-vinhi: |+
-  data: {"text":["Gesamt","Belegt","Frei","Gemeinsam","Puffer","Cache","Speicher:","7868348","3853596","4014752","408364","126404","2105916","-/+","Puffer/Cache:","1621276","6247072","Auslagerungsdatei:","8074748","0","8074748"],"id":"vinhi","updatedAt":1446164898}
-
-memory_stats: |+
-  data: {"max":100,"id":"memory_stats","updatedAt":1446165634}
-
-memory: |+
-  data: {"max":200,"id":"memory","updatedAt":1446166496}
-
-abc: |+
-  data: {"value":"60.57","max":100,"id":"abc","updatedAt":1446592835}
-
-hvv_lohmuehlenstr: |+
-  data: {"items":[{"label":"U1 Norderstedt Mitte","value":"00:12 (+2)"},{"label":"U1 Großhansdorf","value":"00:29 "},{"label":"U1 Norderstedt Mitte","value":"00:32 (+1)"},{"label":"36 Berner Heerweg","value":"00:38"},{"label":"608 S Reeperbahn","value":"00:53"}],"id":"hvv_lohmuehlenstr","updatedAt":1446591825}
-
-hvv_hammerbrook: |+
-  data: {"items":[{"label":"S3 Pinneberg","value":"00:32 (+6)"},{"label":"S3 Neugraben","value":"00:51 "},{"label":"S3 Neugraben","value":"01:01 "},{"label":"S3 Elbgaustraße","value":"02:32"},{"label":"S3 Pinneberg","value":"04:32"}],"id":"hvv_hammerbrook","updatedAt":1446592821}
-
-hvv_berlinertor: |+
-  data: {"items":[{"label":"S1 Wedel","value":"00:35 (+1)"},{"label":"S21 Elbgaustraße","value":"00:35 "},{"label":"U2 Niendorf Nord","value":"00:36 "},{"label":"U3 Schlump - Barmbek","value":"00:36 "},{"label":"U3 Barmbek","value":"00:37 (+1)"}],"id":"hvv_berlinertor","updatedAt":1446592820}
-
+valuation: "data: {\"current\":24,\"last\":16,\"id\":\"valuation\",\"updatedAt\":1464612156}\n\n"
+karma: "data: {\"current\":10509,\"last\":164276,\"id\":\"karma\",\"updatedAt\":1446072324}\n\n"
+synergy: "data: {\"value\":50,\"id\":\"synergy\",\"updatedAt\":1464612156}\n\n"
+convergence: "data: {\"points\":[{\"x\":253,\"y\":28},{\"x\":254,\"y\":27},{\"x\":255,\"y\":47},{\"x\":256,\"y\":3},{\"x\":257,\"y\":4},{\"x\":258,\"y\":45},{\"x\":259,\"y\":35},{\"x\":260,\"y\":49},{\"x\":261,\"y\":3},{\"x\":262,\"y\":14}],\"id\":\"convergence\",\"updatedAt\":1446070836}\n\n"
+buzzwords: "data: {\"items\":[{\"label\":\"Leverage\",\"value\":14},{\"label\":\"Pivoting\",\"value\":24},{\"label\":\"Turn-key\",\"value\":18},{\"label\":\"Enterprise\",\"value\":9},{\"label\":\"Synergy\",\"value\":20},{\"label\":\"Web
+  2.0\",\"value\":27},{\"label\":\"Paradigm shift\",\"value\":25},{\"label\":\"Exit
+  strategy\",\"value\":17},{\"label\":\"Streamlininess\",\"value\":24}],\"id\":\"buzzwords\",\"updatedAt\":1446123233}\n\n"
+hvv_jenfelder allee: "data: {\"items\":[],\"id\":\"hvv_jenfelder allee\",\"updatedAt\":1446069612}\n\n"
+hvv_jenfelder allee (mitte): "data: {\"items\":[],\"id\":\"hvv_jenfelder allee (mitte)\",\"updatedAt\":1446069613}\n\n"
+hvv_jenfelderallee: "data: {\"items\":[{\"label\":\"U1 Ohlstedt\",\"value\":\"17:19
+  \"},{\"label\":\"U1 Lattenkamp (Sporthalle)\",\"value\":\"17:22 \"},{\"label\":\"U1
+  Großhansdorf\",\"value\":\"17:29 \"},{\"label\":\"U1 Lattenkamp (Sporthalle)\",\"value\":\"17:32
+  \"},{\"label\":\"U1 Ohlstedt\",\"value\":\"17:39 \"}],\"id\":\"hvv_jenfelderallee\",\"updatedAt\":1446394078}\n\n"
+hvv_jenfelderalleemitte: "data: {\"items\":[],\"id\":\"hvv_jenfelderalleemitte\",\"updatedAt\":1446070813}\n\n"
+hvv_dammtor: "data: {\"items\":[{\"label\":\"608 S Reeperbahn\",\"value\":\"01:13\"},{\"label\":\"608
+  Großlohe\",\"value\":\"01:17\"},{\"label\":\"600 Böcklerstraße\",\"value\":\"01:21\"},{\"label\":\"618
+  Sorenkoppel\",\"value\":\"01:23\"},{\"label\":\"600 Bf. Altona\",\"value\":\"01:38\"},{\"label\":\"608
+  S Reeperbahn\",\"value\":\"01:43\"},{\"label\":\"608 Bf. Rahlstedt\",\"value\":\"01:47\"},{\"label\":\"600
+  Böcklerstraße\",\"value\":\"01:51\"},{\"label\":\"600 Bf. Altona\",\"value\":\"02:08\"},{\"label\":\"608
+  S Reeperbahn\",\"value\":\"02:13\"},{\"label\":\"608 Großlohe\",\"value\":\"02:17\"}],\"id\":\"hvv_dammtor\",\"updatedAt\":1446076776}\n\n"
+hvv_hallerstr: "data: {\"items\":[{\"label\":\"605 Rathausmarkt\",\"value\":\"01:41\"},{\"label\":\"605
+  Warnckesweg\",\"value\":\"02:09\"},{\"label\":\"605 Rathausmarkt\",\"value\":\"02:41\"},{\"label\":\"605
+  Warnckesweg\",\"value\":\"03:09\"},{\"label\":\"605 Rathausmarkt\",\"value\":\"03:41\"},{\"label\":\"605
+  Warnckesweg\",\"value\":\"04:09\"},{\"label\":\"M15 Alsterchaussee\",\"value\":\"04:16\"},{\"label\":\"M15
+  S Klein Flottbek\",\"value\":\"04:21\"},{\"label\":\"U1 Ohlstedt\",\"value\":\"04:29\"},{\"label\":\"U1
+  Großhansdorf\",\"value\":\"04:39\"},{\"label\":\"M15 Alsterchaussee\",\"value\":\"04:46\"}],\"id\":\"hvv_hallerstr\",\"updatedAt\":1446076952}\n\n"
+hvv_dammtora: "data: {\"items\":[{\"label\":\"S21 Aumühle\",\"value\":\"23:41 \"},{\"label\":\"S21
+  Elbgaustraße\",\"value\":\"23:41 \"},{\"label\":\"S31 Altona\",\"value\":\"23:43
+  \"},{\"label\":\"S31 Berliner Tor\",\"value\":\"23:59 \"},{\"label\":\"S21 Aumühle\",\"value\":\"00:01
+  \"},{\"label\":\"S21 Elbgaustraße\",\"value\":\"00:01 \"},{\"label\":\"S31 Altona\",\"value\":\"00:03
+  \"},{\"label\":\"S31 Berliner Tor\",\"value\":\"00:19 \"},{\"label\":\"S21 Aumühle\",\"value\":\"00:21
+  \"},{\"label\":\"S21 Elbgaustraße\",\"value\":\"00:21 \"},{\"label\":\"S31 Altona\",\"value\":\"00:23
+  \"}],\"id\":\"hvv_dammtora\",\"updatedAt\":1446071313}\n\n"
+hvv_adammtor: "data: {\"items\":[{\"label\":\"S31 Altona\",\"value\":\"23:43 \"},{\"label\":\"S31
+  Berliner Tor\",\"value\":\"23:59 \"},{\"label\":\"S21 Aumühle\",\"value\":\"00:01
+  \"},{\"label\":\"S21 Elbgaustraße\",\"value\":\"00:01 \"},{\"label\":\"S31 Altona\",\"value\":\"00:03
+  \"},{\"label\":\"S31 Berliner Tor\",\"value\":\"00:19 \"},{\"label\":\"S21 Aumühle\",\"value\":\"00:21
+  \"},{\"label\":\"S21 Elbgaustraße\",\"value\":\"00:21 \"},{\"label\":\"S31 Altona\",\"value\":\"00:23
+  \"},{\"label\":\"RE70 Hamburg Hbf\",\"value\":\"00:27 \"}],\"id\":\"hvv_adammtor\",\"updatedAt\":1446071352}\n\n"
+hvv_abc: "data: {\"items\":[{\"label\":\"S31 Berliner Tor\",\"value\":\"23:59 \"},{\"label\":\"S21
+  Aumühle\",\"value\":\"00:01 \"},{\"label\":\"S21 Elbgaustraße\",\"value\":\"00:01
+  \"},{\"label\":\"S31 Altona\",\"value\":\"00:03 \"},{\"label\":\"S31 Berliner Tor\",\"value\":\"00:19
+  \"},{\"label\":\"S21 Aumühle\",\"value\":\"00:21 \"},{\"label\":\"S21 Elbgaustraße\",\"value\":\"00:21
+  \"},{\"label\":\"S31 Altona\",\"value\":\"00:23 \"},{\"label\":\"RE70 Hamburg Hbf\",\"value\":\"00:27
+  \"},{\"label\":\"S31 Berliner Tor\",\"value\":\"00:39 \"},{\"label\":\"S21 Aumühle\",\"value\":\"00:41
+  \"}],\"id\":\"hvv_abc\",\"updatedAt\":1446072289}\n\n"
+karmaa: "data: {\"current\":95156,\"last\":90602,\"id\":\"karmaa\",\"updatedAt\":1464612156}\n\n"
+hvv_schweidnitzerstr: "data: {\"items\":[{\"label\":\"S3 Altona\",\"value\":\"17:22
+  \"},{\"label\":\"S3 Stade\",\"value\":\"17:31 \"},{\"label\":\"S3 Pinneberg\",\"value\":\"17:32
+  \"},{\"label\":\"S3 Altona\",\"value\":\"17:42 \"},{\"label\":\"S3 Neugraben\",\"value\":\"17:51
+  \"}],\"id\":\"hvv_schweidnitzerstr\",\"updatedAt\":1446394078}\n\n"
+weather: "data: {\"temp\":\"3&deg;C\",\"condition\":\"Fog\",\"title\":\"Hamburg Weather\",\"climacon\":\"fog\",\"id\":\"weather\",\"updatedAt\":1446592837}\n\n"
+welcome: "data: {\"moreinfo\":\"1007 facts to learn!\",\"id\":\"welcome\",\"updatedAt\":1464612134}\n\n"
+vinhi: "data: {\"text\":[\"Gesamt\",\"Belegt\",\"Frei\",\"Gemeinsam\",\"Puffer\",\"Cache\",\"Speicher:\",\"7868348\",\"3853596\",\"4014752\",\"408364\",\"126404\",\"2105916\",\"-/+\",\"Puffer/Cache:\",\"1621276\",\"6247072\",\"Auslagerungsdatei:\",\"8074748\",\"0\",\"8074748\"],\"id\":\"vinhi\",\"updatedAt\":1446164898}\n\n"
+memory_stats: "data: {\"max\":100,\"id\":\"memory_stats\",\"updatedAt\":1446165634}\n\n"
+memory: "data: {\"max\":200,\"id\":\"memory\",\"updatedAt\":1446166496}\n\n"
+abc: "data: {\"value\":\"11.42\",\"max\":100,\"id\":\"abc\",\"updatedAt\":1464612155}\n\n"
+hvv_lohmuehlenstr: "data: {\"items\":[{\"label\":\"U1 Norderstedt Mitte\",\"value\":\"00:12
+  (+2)\"},{\"label\":\"U1 Großhansdorf\",\"value\":\"00:29 \"},{\"label\":\"U1 Norderstedt
+  Mitte\",\"value\":\"00:32 (+1)\"},{\"label\":\"36 Berner Heerweg\",\"value\":\"00:38\"},{\"label\":\"608
+  S Reeperbahn\",\"value\":\"00:53\"}],\"id\":\"hvv_lohmuehlenstr\",\"updatedAt\":1446591825}\n\n"
+hvv_hammerbrook: "data: {\"items\":[{\"label\":\"S31 Altona\",\"value\":\"14:57 \"},{\"label\":\"S3
+  Neugraben\",\"value\":\"15:01 \"},{\"label\":\"S3 Pinneberg\",\"value\":\"15:02
+  \"},{\"label\":\"S31 Harburg Rathaus\",\"value\":\"15:05 \"},{\"label\":\"S31 Altona\",\"value\":\"15:07
+  \"}],\"id\":\"hvv_hammerbrook\",\"updatedAt\":1464612126}\n\n"
+hvv_berlinertor: "data: {\"items\":[{\"label\":\"160 U Wandsbek Markt\",\"value\":\"14:57\"},{\"label\":\"U2
+  Mümmelmannsberg\",\"value\":\"14:57 \"},{\"label\":\"U3 Wandsbek-Gartenstadt\",\"value\":\"14:57
+  (+1)\"},{\"label\":\"S1 Poppenbüttel / Hamburg Airport (Flughafen)\",\"value\":\"14:57
+  \"},{\"label\":\"S21 Bergedorf\",\"value\":\"14:57 \"}],\"id\":\"hvv_berlinertor\",\"updatedAt\":1464612125}\n\n"

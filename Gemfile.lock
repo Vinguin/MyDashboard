@@ -5,6 +5,8 @@ GEM
     awesome_print (1.6.1)
     backports (3.6.6)
     buftok (0.2.0)
+    childprocess (0.5.9)
+      ffi (~> 1.0, >= 1.0.11)
     coffee-script (2.2.0)
       coffee-script-source
       execjs
@@ -28,6 +30,7 @@ GEM
     execjs (2.0.2)
     faraday (0.9.2)
       multipart-post (>= 1.2, < 3)
+    ffi (1.9.10)
     hike (1.2.3)
     http (0.9.8)
       addressable (~> 2.3)
@@ -60,14 +63,20 @@ GEM
     nokogiri (1.6.6.2)
       mini_portile (~> 0.6.0)
     ntlm-http (0.1.1)
+    puma (3.4.0)
     rack (1.5.5)
     rack-protection (1.5.3)
       rack
     rack-test (0.6.3)
       rack (>= 1.0)
+    rubyzip (1.2.0)
     rufus-scheduler (2.0.24)
       tzinfo (>= 0.3.22)
     sass (3.2.19)
+    selenium-webdriver (2.53.0)
+      childprocess (~> 0.5)
+      rubyzip (~> 1.0)
+      websocket (~> 1.0)
     simple_oauth (0.3.1)
     sinatra (1.4.6)
       rack (~> 1.4)
@@ -109,6 +118,7 @@ GEM
       unf_ext
     unf_ext (0.0.7.1)
     webrobots (0.1.1)
+    websocket (1.2.3)
     xml-simple (1.1.5)
 
 PLATFORMS
@@ -118,5 +128,10 @@ DEPENDENCIES
   awesome_print
   dashing
   mechanize
+  puma
+  selenium-webdriver (~> 2.53)
   twitter (>= 5.9.0)
   xml-simple
+
+BUNDLED WITH
+   1.11.2
